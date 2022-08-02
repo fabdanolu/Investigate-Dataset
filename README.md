@@ -20,7 +20,7 @@ The Packages used on this project include:
 * Pandas Version '1.4.3' - For 2D Data Structure 
 * Matplotlib Version 3.5.2 - For Visualization
 
-
+<a id='overview'></a>
 #### Project Overview
 I analyzed the TMDB movie dataset. Originally, the dataset contains 10866 rows and 21 columns. There are missing values and incorrect/impossible values especially in the budget and revenue columns. The dataset contains information about the production team (cast & Directors) and company, the financial records of each film and the ratings. 
 Special focus was on two directors and how they rank based on these questions; Steven Spielberg & James Cameron. 
@@ -30,7 +30,7 @@ Special focus was on two directors and how they rank based on these questions; S
     Directors success ratio is the ratio of the profits to the total number of films for each director. This is to show the director with the highest profits per film.
 > 3. Over the years, whose film has been more popular, James or Steven?
 
-
+<a id='process'></a>
 #### Process Overview
 
 The steps include 
@@ -42,14 +42,14 @@ The steps include
 
 
 
-
+<a id='conclusions'></a>
 #### Conclusions
 > 1. The number of films directed influences the total profits obviously.
 > 2. Steven spielberg is one the greatest director of all time. He has the numbers to back it up. He is the highest grossing director. 
 > 3. However taking a deeper dive into the numbers, the numbers show that he has directed more films than the others. James cameron has a very good success ratio top 2 and also rank top 3 in highest profits. 
 > 4. Area of further analysis could be in the  correlation between profits and movie count
 
-
+<a id='ll'></a>
 #### Limitations and Learning Curve
 * Majority of datasets were unusable due to the fact that some of the rows in Budget and Revenue columns have Zero as values. Dropping those rows was rational.
 * Understand all the steps involved in a typical data analysis process
